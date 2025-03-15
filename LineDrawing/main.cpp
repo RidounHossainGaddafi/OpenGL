@@ -27,7 +27,7 @@ void Draw()
     glBegin(GL_POINTS);
     glVertex2i(x, y);
 
-    for (int i=0; i<dx; i++)
+    for (int i=0; i<dx; i++)  //ekhane dx ei hobe. karon dx joto, totota step hoy math e.
     {
         if (pk < 0)
         {
